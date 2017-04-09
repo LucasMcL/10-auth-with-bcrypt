@@ -1,0 +1,20 @@
+{
+  "name": "10-auth-with-bcrypt",
+  "description": "Auth exercise",
+  "main": "server.js",
+  "authors": [
+    "LucasMcL <LMcLaughlin09@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/LucasMcL/10-auth-with-bcrypt",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "10-auth-with-bcrypt",
+  "version": "1.0.0",
+  "description": "For this exercise, you will build a simple authentication app. Make sure to have read the previous resource file on [authentication](09-authentication-101.md). All this app will do is give the user the ability to register with credentials, and then once successfully registered, log in with those same credentials. Nothing more, nothing less.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasMcL/10-auth-with-bcrypt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasMcL/10-auth-with-bcrypt/issues"
+  },
+  "homepage": "https://github.com/LucasMcL/10-auth-with-bcrypt#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "bookshelf": "^0.10.3",
+    "express": "^4.15.2",
+    "knex": "^0.12.9",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pg": "^6.1.5",
+    "pug": "^2.0.0-beta11"
+  }
+}

@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	.container
+		h1.text-center Register
+		if err
+			h4= err
+		form(method="POST")
+			.form-group
+				label(for="username") Username
+				input.form-control(type="text" id="username" name="username" placeholder="JohnDoe123")
+			.form-group
+				label(for="password") Password
+				input.form-control(type="password" id="password" name="password" placeholder="********")
+			button(type="submit" class="btn btn-default") Register
+		a(href="/login") Already have an account?
